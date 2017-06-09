@@ -1,7 +1,7 @@
 import re
 username_list = []
 
-# Text is stored in text_file.txt
+# Text is stored in forum_text.txt
 with open('forumtext.txt') as text_file:
     for line in text_file:
         # Find all words in the line
